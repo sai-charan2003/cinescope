@@ -22,8 +22,8 @@ class _moviesState extends State<movies> {
   List trendingl = [];
 
   final tmbd = TMDB(
-    ApiKeys('38795e6decb3f2a4ebea79725e5721d2',
-        'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzODc5NWU2ZGVjYjNmMmE0ZWJlYTc5NzI1ZTU3MjFkMiIsInN1YiI6IjY0OGVlYmM5MmY4ZDA5MDBhZDM1MzRiMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.O-RmGGquRM6CU0JAOfn48kB77pNw2abPkutlWDYAx2U'),
+    ApiKeys('',
+        '.eyJhdWQiOiIzODc5NWU2ZGVjYjNmMmE0ZWJlYTc5NzI1ZTU3MjFkMiIsInN1YiI6IjY0OGVlYmM5MmY4ZDA5MDBhZDM1MzRiMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.O-RmGGquRM6CU0JAOfn48kB77pNw2abPkutlWDYAx2U'),
     logConfig: const ConfigLogger(
       showLogs: true,
       showErrorLogs: true,
